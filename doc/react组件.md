@@ -2,10 +2,12 @@
 
 ## 安装
 
+```
 $ npm install -g create-react-app
 $ create-react-app my-app
 $ cd my-app/
 $ npm start
+```
 
 ## 创建组件
 
@@ -106,3 +108,8 @@ constructor(props){
 + componentDidUpdate 在组件完成更新后立即调用。在初始化时不会被调用。
 
 + componentWillUnmount在组件从 DOM 中移除的时候立刻被调用。
+
+
+### 相关资源
+
+> http://react-guide.github.io/react-router-cn/docs/API.html
